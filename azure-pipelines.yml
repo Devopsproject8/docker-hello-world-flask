@@ -1,4 +1,8 @@
 # Docker
+- task: AzureWebAppContainer@1
+  inputs:
+    azureSubscription: 'Free Trial(b9b078e5-250e-4050-87b7-bbc3acd81786)'
+    appName: 'docker8'
 # Build and push an image to Azure Container Registry
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
